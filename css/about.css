@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+.body{
+	height: 3300px;
+	width: 100%;
+}
+
+
+.changer{
+	height: 700px;
+	width: 100%;
+}
+
+
+/* Position the image container (needed to position the left and right arrows) */
+.containerr {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlidess {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.welcome {
+	width: 100%;
+	height: 340px;
+	background: #3498db;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url(../images/fron.jpg);
+	background-size: cover;
+	   filter: grayscale(100%);
+	    -webkit-filter: grayscale(100%);  /* Safari 6.0 - 9.0 */
+	   background-repeat: no-repeat;
+}
+
+
+
+.welcomeheader p {
+	padding: 10px 30px;
+	letter-spacing: 5px;
+	font-size: 60px;
+	text-align: center;
+	color: #fff;
+	filter: brightness(150%);
+	font-family: Pacifico;
+}
+
+.plans{
+	height: 400px;
+	width: 100%;
+	background: #2dc2ac;
+}
+
+.wedo{
+	height: 400px;
+	background: #ecf0f1;
+	width: 100%;
+}
+
+.whatwe{
+	display: flex;
+	flex-wrap: wrap;
+float: right;
+	background: #3498db;
+	height: 400px;
+	width: 70%;
+}
+
+.whatleft{
+	width: 30%;
+	float: left;
+	height: 400px;
+}
+
+.whatleft h3{
+	background: #e84118;
+	padding: 10px 13px;
+	width: 80%;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	text-transform: capitalize;
+	font-family: Dancing Script;
+}
+
+
+.roww{
+	flex: 35%;
+	margin: 10px 15px;
+	border-radius:30px;
+	height: 180px;
+	width: 100%;
+}
+
+.roww .rowicon{
+		position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: lighter;
+}
+
+.roww .rowicon i{
+	font-size: 50px;
+	margin-top: 10px;
+}
+
+.roww:nth-child(1){
+	background: #27ae60;
+}
+.roww:nth-child(2){
+	background: #bdc3c7;
+}
+.roww:nth-child(3){
+	background: #34495e;
+}
+.roww:nth-child(4){
+	background: #8e44ad;
+}
+
+.ourvalues{
+	padding-top: 120px;
+    padding-bottom: 100px;
+    width: 100%;
+    background: #f5f6fa;
+    height: 150px;
+}
+
+.valuesside{
+	float: right;
+	width: 60%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.valuesside .side{
+	flex: 35%;
+}
+.valuesside .side h3{
+	    color: #4b4e53;
+    font-weight: 300;
+    font-size: 24px;
+    margin: 0;
+    letter-spacing: normal;
+    line-height: 33px;
+    cursor: pointer;
+    color: #2d3436;
+    padding-bottom: 50px;
+
+}
+.sideicon{
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+.sideicon i{
+	font-size: 50px;
+	cursor: pointer;
+	color: #f9ca24;
+} 
+.side:hover .sideicon i{
+	color: #6c5ce7;
+}
+.valuesside .side h3:hover{
+color: #6c5ce7;	
+}
+.valuesleft{
+	float: left;
+	width: 35%;
+}
+
+
+
+.valuesleft h3{
+	margin-left: 50px;
+	font-size: 40px;
+	font-weight: 400;
+	text-transform: capitalize;
+	    padding: 22px 25px 24px;
+    line-height: 36px;
+    border-left: #4b4e53 3px solid;
+
+}
+
+.philosophy{
+
+	height: auto;
+	background-color: #F2FEFF;
+    padding-top: 80px;
+    padding-bottom: 0px;
+	width: 100%;
+}
+
+.philosophy h4{
+	padding: 22px 25px;
+	text-transform: uppercase;
+	   border-bottom: #4b4e53 2px solid;
+	   line-height: 36px;
+	       font-size: 30px;
+    margin: 0;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #4b4e53;
+    margin-bottom: 20px;
+}
+.philosophy h4 strong{
+    font-weight: 700;
+}
+
+.philosophy p{
+	    font-size: 14px;
+    line-height: 25px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #7e8082;
+	text-align: justify;
+	padding-left: 20px;
+    padding-right: 20px;
+        margin: 0 0 10px;
+}
+
+.philosophy p strong{
+	text-transform: uppercase;
+	font-size: 20px;
+	margin: 10px;
+	margin-top: 10px;
+}
+
+.sectiontop{
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+	background: url('../images/blogging.jpg');
+	animation: slide 25s infinite;
+}
+
+
+.aboutcontent{
+		display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+text-align: center;
+width: 100%;
+margin-top: 90px;
+font-family: 'Dancing Script', cursive;
+}
+
+.aboutcontent h1{
+	color: #ecf0f1;
+	font-size: 50px;
+	text-align: center;
+}
+
+@keyframes slide {
+	0%{
+		background: url(../images/code.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	33%{
+		background: url(../images/about.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	67%{
+		background: url(../images/blur.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	
+}
+
+
+.accordion {
+	margin-top: 10px;
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  transition: 0.6s;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.panel p{
+	text-align: left;
+	  font-size: 18px;
+}
+
+
+@media only screen and (max-width: 900px) {
+
+.body{
+		height: 10000px;
+				}
+	.servicebox{
+		max-width: 50%;
+	}
+
+	.wedo{
+
+		height: 500px;
+	}
+	.whatleft{
+		width: 100%;
+		flex: 100%;
+		height: 90px;
+	}
+
+	.whatwe{
+		width: 100%;
+
+	}
+
+	.roww{
+		flex: 41%;
+	}
+
+	.ourvalues{
+		height: 200px;
+	}
+
+	.valuesleft{
+		width: 95%;
+		margin-bottom: 20px;
+	}
+
+	.valuesside{
+		width: 95%;
+	}
+	.valuesside .side{
+		flex: 40%;
+	}
+
+	.philosophy{
+		height: 850px;
+	}
+
+
+.welcomeheader p {
+	font-size: 35px;
+	}
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+.servicebox{
+		max-width: 99%;
+	}
+
+	.wedo{
+
+		height: 820px;
+	}
+	.roww{
+		flex: 100%;
+	}
+
+	.whatwe{
+		height: 800px;
+	}
+
+	.valuesside .side{
+		flex: 90%;
+		margin-left: 40px;
+	}
+
+	.ourvalues{
+		height: 400px;
+	}
+
+	.philosophy{
+		height: auto;
+	}
+
+	
+}
+ 

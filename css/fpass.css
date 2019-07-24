@@ -1,0 +1,99 @@
+.login{
+
+	background: url("../images/code.jpg"), linear-gradient(#353b48, #d13531);
+	height: 700px;
+	background-size: cover;
+	width: 100%;
+}
+
+
+form{
+	position: absolute;
+	width: 320px;
+	left: 40%;
+	top: 50%;
+	text-align: center;
+	padding: 70px 40px;
+	color: #fff;
+	box-sizing: border-box;
+	border: 1px solid #2f3640;
+	overflow: hidden;
+	background: url('../images/slider.jpg');
+	background-size: cover;
+}
+
+input[type="text"]{
+	display: block;
+	height: 45px;
+	width: 100%;
+	border: 0;
+	text-align: center;
+	margin: 20px 0;
+	transition: 0.25s;
+	padding: 0 16px;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	background: rgba(255,255,255,.5);
+	border-radius: 4px;
+
+}
+
+input[type="submit"]{
+
+	border: none;
+	outline: none;
+	height: 50px;
+	width: 230px;
+	padding: 15px 45px;
+		margin-top: 14px;
+	margin-bottom: 20px;
+	background: #487eb0;
+	font-size: 16px;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 6px;
+	padding-bottom: 6px;
+}
+
+input[type="submit"]:hover{
+	background: #487eb0;
+    color: #fff;
+	transform: scale(0.96);
+}
+
+
+h3{
+	font-size: 20px;
+	font-weight: 400;
+}
+
+h4{
+	font-size: 20px;
+	font-weight: 400;
+}
+.arrow{
+	font-size: 40px;
+	color: #34495e;
+	background: #34495e;
+	cursor: pointer;
+	position: absolute;
+	bottom: -678px;
+	right: 130px;
+}
+
+@media only screen and (max-width: 735px){
+	form{
+
+		left: 15%;
+		top: 80%;
+	}
+
+	.arrow{
+		
+		bottom: -1578px;
+		right: 30px;
+	}
+
+
+}

@@ -1,0 +1,116 @@
+.tabContainer{
+	margin-top: 40px;
+	padding-top: 20px;
+	width: 98%;
+	margin: 0 auto;
+	height: 250px;
+}
+
+.tabContainer .buttonContainer{
+	height: 15%;
+}
+
+.tabContainer .buttonContainer button{
+	width: 16.65%;
+	height: 50px;
+	float: left;
+	border: 1px solid #000;
+	cursor: pointer;
+	font-size: 18px;
+	font-family: sans-serif;
+	padding: 10px;
+	outline: none;
+	background: #eee;
+}
+
+.tabContainer .buttonContainer button:hover{
+	background-color: #34495e;
+	color: #fff;
+}
+
+.tabContainer .tabPanel{
+	height: 85%;
+	color: #fff;
+	text-align: center;
+	background-color: gray;
+	padding-top: 105px;
+	box-sizing: border-box;
+	display: none;
+
+}
+@media only screen and (max-width: 650px){
+
+	.courses{
+		height: 410px;
+	}
+.tabContainer .buttonContainer button{
+		display: block;
+		float: none;
+		width: 27%;
+	height: 53px;
+
+	}
+
+	.tabContainer .tabPanel{
+	margin-left: 144px;
+	height: 127.4%;
+	margin-top: -37.5px;
+
+}
+
+}
+
+@media only screen and (max-width: 600px){
+
+	.tabContainer .buttonContainer button{
+		display: block;
+		float: none;
+		width: 25%;
+	height: 53px;
+
+	}
+
+	.tabContainer .tabPanel{
+	margin-left: 134px;
+	height: 127.4%;
+	margin-top: -37.5px;
+
+}
+}
+
+
+@media only screen and (max-width: 570px){
+
+
+	.tabContainer .buttonContainer button{
+	
+		width: 29%;
+	height: 55px;
+
+	}
+
+	.tabContainer .tabPanel{
+	margin-left: 139px;
+	margin-top: -37.5px;
+		height: 132%;
+
+}
+}
+
+@media only screen and (max-width: 550px){
+
+
+	.tabContainer .buttonContainer button{
+	
+		width: 30%;
+	height: 55px;
+
+	}
+
+	.tabContainer .tabPanel{
+	margin-left: 28%;
+	margin-top: -37.5px;
+		height: 132%;
+
+}
+}

@@ -1,0 +1,106 @@
+
+.servicessection{
+	background: url(../images/front.jpg);
+	background-size: cover;
+	padding: 60px 0;
+	height: 800px;
+	width: 98.999%;
+	opacity: 0.9;
+	
+}
+
+.innerwidth{
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 0 20px;
+	overflow: hidden;
+}
+
+
+.sectiontitle{
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 30px;
+	border-bottom: 3px solid #fff;
+	width: 95%;
+}
+
+
+.servicescontainer{
+	display: flex;
+	flex-wrap: wrap;
+	width: 95%;
+}
+
+.servicebox{
+	flex: 32.33%;
+	width: 90%;
+	padding: 10px;
+	text-align: center;
+	color: #ddd;
+	cursor: pointer;
+}
+
+.serviceicon{
+	display: inline-block;
+	width: 70px;
+	height: 70px;
+	border: 3px solid #2c3e50;
+	color: #82ccdd;
+	transform: rotate(45deg);
+	margin-bottom: 30px;
+	margin-top: 16px;
+}
+
+
+.serviceicon i{
+	line-height: 70px;
+	transform: rotate(-45deg);
+	font-size: 36px;
+	color:#3498db;
+}
+
+.servicetitle{
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	color: #fff;
+}
+
+.servicedesc{
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 20px;
+	color: #fff;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+
+	.servicessection{
+
+	height: 1200px;
+}
+	.servicebox{
+		flex: 45%;
+		width: 50%;
+	}
+	.servicessection{
+		height: 820px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+
+.servicebox{
+	
+		flex: 100%;
+	}
+	.servicessection{
+		height: 1500px;
+	}
+
+}
